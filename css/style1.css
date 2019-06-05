@@ -1,0 +1,279 @@
+/*sec display block */
+
+
+body {
+    background-color:  #404040;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+
+    
+}
+
+/*bienvenida*/
+
+.primera_seccion{
+    background-color:rgba(89,222,30,.5);
+}
+
+
+.welcome {
+
+    text-align: center;
+    float: left;
+    border-right: solid 3px grey;
+
+    height: 100vh;
+    width: 50%;
+    line-height: 50vh;
+}
+
+
+.primeros {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    line-height: 50vh;
+
+}
+
+
+.formulario{
+
+    display: block;
+    float: left;
+    margin: 0 auto;
+ /*por qué no funciono?*/    
+}
+
+form {
+
+
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    float: left;
+    display: block;
+
+}
+#boton_enviar {
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    color:white;
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+
+
+
+
+/*ELECCION*/
+
+
+
+.hola_nombre{
+    float: left;
+    background-color: yellow;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 4em;
+    position: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+#nombre_html{
+    text-align: center;
+    position: relative;
+    height: 45%;
+    width: 100vw;
+    color: black;
+}
+#saludo {
+
+   height: 100%;
+    width: 100vw;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    color: grey;
+    
+}
+
+
+
+/*por que se encima*/
+/*por qué se queda en gris y no se acompleta aqua??*/
+.eleccion_series_peliculas {
+    float: left;
+    display: block;
+    background-color: aqua;
+    width: 100%; 
+    height: 25%;   
+    text-align: center;
+    font-size:5em;
+    line-height: 40%;
+    
+
+}
+
+.series {
+    display: block;
+    height: 25%;
+    width: 50%;
+    text-align: center;
+    background-color: blueviolet;
+    float: left;
+    font-size: 4em;
+    
+}
+
+.pelis {
+    display: block;
+    width: 50%;
+    height: 25%;
+    text-align: center;
+    background-color: pink;
+    float: left;
+    font-size: 4em;
+    
+
+}
+
+
+
+
+/*SERIES*/
+
+
+
+#aparec{
+    display: none;
+}
+.eleccion{
+    display: block;
+}
+
+section{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    float: left;
+    text-align: center;
+    position: inherit;
+    border: solid 5px red;
+}
+
+
+/*seccion series*/
+
+img{
+    height: 85%;
+    width: 20%;
+    float: left;
+    margin: 3% 5%;
+    border:solid black 20px;
+    position: inherit;
+    background-color: #fff;
+}
+
+h2{
+
+    height: 40%;
+    width: 50vw;
+    background-color: #fff;
+    float: left;
+    margin: 3% 5%;
+    font-size: 3em;
+    text-align: center;
+    line-height: 200px;
+}
+.envolver_rseries{
+
+    float: left;
+    display: block;
+    height: 40%;
+    width: 50%;
+    margin: 0 auto;
+    
+
+}
+
+.respuestas_serie{
+    display: block;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 3em;
+    background-color: grey;
+    margin: 2% 10%;
+
+
+}
+
+/*class="respuestas_serie" ponerle un hover */
+
+
+.envolver_rpeliculas{
+
+    float: left;
+    display: block;
+    height: 40%;
+    width: 50%;
+    margin: 0 auto;
+    
+
+}
+
+button#boton_enviar_peliculas{
+    display:inline-block;
+
+    height: 10%;
+    width: 10%;
+}
+
+.envolvovedor_series{
+    display: none;
+}
+
+
+.envolvovedor_peliculas{
+    display: none;
+}
+
+#fin{
+
+    display: none;
+}
+.again, .salir{
+    font-size: 3em;
+    border: solid green 2px;
+    line-height: 400px;
+    height: 50vh;
+    width: 100vw;
+}
+
+.again{
+    background-color: lime;
+
+}
+
+.salir{
+    background-color: orange;
+}
+
+
+h3{
+    font-size: 2.5em;
+    line-height: 20%;
+}
+
